@@ -27,8 +27,15 @@ button {
     padding-bottom: 120px;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+
+
 .header-container {
     width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
 .header-logo {
@@ -39,8 +46,7 @@ button {
         letter-spacing: 0.03em;
         color: #4d5ae5;
         text-transform: uppercase;
-        margin-right: 100px;
-
+        margin-right: 76px;
 }
 
 .header-logo-color {
@@ -50,9 +56,6 @@ button {
 .header-navigation {
     color: #2e2f42;
     background: #fff;
-}
-
-.header-navigation {
     display: flex;
     align-items: center;
 }
@@ -70,6 +73,9 @@ button {
     gap: 40px;
 }
 
+.header-navigation-item {
+    padding: 24px 0 24px
+}
 
 .header-navigation-link:hover,
 .header-navigation-link:focus {
@@ -93,8 +99,8 @@ button {
 
 .contacts {
     display: flex;
-        margin-left: auto;
-        gap: 40px;
+    margin-left: auto;
+    gap: 40px;
 }
 
 .contacts-list {
@@ -119,6 +125,7 @@ button {
 
 .solutions {
     background-color:#2e2f42;
+    padding: 188px 0;
 }
 
 .solutions-container {
@@ -161,6 +168,9 @@ button {
     margin: 0 auto;
     border-radius: 4px;
     padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .solutions-btn:hover,
@@ -168,6 +178,9 @@ button {
     background: #404bbf;
 }
    
+.adventures {
+    padding: 120px 0;
+}
 
 
 .adventures-list {
@@ -178,8 +191,10 @@ button {
     flex-basis: calc((100% - 72px) / 4);
 }
   
+
 .adventures-title {
     display: none;
+    overflow: hidden;
 }
 
 .adventures-subtitle {
@@ -188,6 +203,8 @@ button {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
+
 }
 
 .adventures-text {
@@ -201,6 +218,7 @@ button {
 
 .team {
     background-color: #f4f4fd;
+    padding: 120px 0 120px 0;
 }
 
 .team-title {
@@ -212,6 +230,7 @@ button {
         text-align: center;
         text-transform: capitalize;
         max-width: 162px;
+        margin-bottom: 72px;
 }
 
 .team-title {
@@ -233,6 +252,11 @@ button {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        flex-basis: calc((100% - 72px) / 4);
+    }
+
+.team-members {
+    padding: 32px 0;
 }
 
 .team-photos {
@@ -246,12 +270,12 @@ button {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 8px;
 }
 
-.team-subtitle {
-    display: flex;
-    justify-content: center;
-}
 
 .team-text {
     font-weight: 400;
@@ -262,11 +286,12 @@ button {
 }
 
 .team-text {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
+    text-align: center;
 }
 
+.portfolio {
+    padding: 120px 0 120px 0;
+}
 
 .portfolio-container {
     padding-bottom: 120px;
@@ -283,6 +308,7 @@ button {
         text-align: center;
         text-transform: capitalize;
         padding-top: 120px;
+        margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -294,15 +320,21 @@ button {
 }
 
 .portfolio-list-item {
-border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-services {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .portfolio-photo {
     display: block;
     width: 360px;
         height: 300px;
+        margin: 0 auto;
 }
 
 .portfolio-subtitle {
@@ -312,7 +344,7 @@ border-bottom: 1px solid #e7e9fc;
         letter-spacing: 0.02em;
         color: #2e2f42;
         display: flex;
-            justify-content: center;
+        justify-content: center;
 }
 
 .portfolio-text {
@@ -328,6 +360,8 @@ border-bottom: 1px solid #e7e9fc;
 
 .footer {
     background: #2e2f42;
+    padding: 100px 0;
+
 }
 
 .footer-logo {
@@ -346,7 +380,7 @@ border-bottom: 1px solid #e7e9fc;
     padding-top: 100px;
     padding-left: 156px;
     padding-bottom: 16px;
-
+    margin-bottom: 16px;
 }
 
 .footer-logo-color {

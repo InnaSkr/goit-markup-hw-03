@@ -182,19 +182,29 @@ button {
     padding: 120px 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.adventures-list-item {
+    width: calc((100% - 72px) / 4);
+}
 
 .adventures-list {
     display: flex;
     gap: 24px;
     padding-left: 156px;
-    padding-right: 156px;
-    flex-basis: calc((100% - 72px) / 4);
-}
-  
-
-.adventures-title {
-    display: none;
-    overflow: hidden;
+        padding-right: 156px;
+        flex-basis: calc((100% - 72px) / 4);
 }
 
 .adventures-subtitle {
@@ -229,14 +239,14 @@ button {
         color: #2e2f42;
         text-align: center;
         text-transform: capitalize;
-        max-width: 162px;
-        margin-bottom: 72px;
+        max-width: 162px;   
 }
 
 .team-title {
     margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -252,7 +262,7 @@ button {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        flex-basis: calc((100% - 72px) / 4);
+        width: calc((100% - 72px) / 4);
     }
 
 .team-members {
@@ -345,6 +355,7 @@ button {
         color: #2e2f42;
         display: flex;
         justify-content: center;
+        margin-bottom: 8px;
 }
 
 .portfolio-text {

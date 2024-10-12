@@ -33,9 +33,11 @@ button {
 
 
 .header-container {
-    width: 1158px;
+   width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
 }
 
 .header-logo {
@@ -56,9 +58,13 @@ button {
 .header-navigation {
     color: #2e2f42;
     background: #fff;
+}
+
+.header-navigation {
     display: flex;
     align-items: center;
 }
+
 
 .header-navigation-link {
     font-weight: 500;
@@ -74,7 +80,8 @@ button {
 }
 
 .header-navigation-item {
-    padding: 24px 0 24px
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-navigation-link:hover,
@@ -88,6 +95,18 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+
+.contacts-list {
+    display: flex;
+}
+
+.contacts-list-item:first-child {
+    margin-right: 40px;
+}
+
+.contacts-list-item:last-child {
+    margin-right: 0px;
 }
 
 .contacts-list-link {

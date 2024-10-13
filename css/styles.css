@@ -209,15 +209,14 @@ button {
 
 .adventures-list-item {
     width: calc((100% - 72px) /4);
-    padding-left: 0;
-        margin: 0;
 }
 
 .adventures-list {
     display: flex;
     gap: 24px;
-    padding-left: 156px;
     padding-right: 156px;
+    padding-left: 0;
+        margin: 0;
 }
 
 .adventures-subtitle {

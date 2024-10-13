@@ -208,7 +208,7 @@ button {
 }
 
 .adventures-list-item {
-    width: calc((100% - 72px) /4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .adventures-list {
@@ -216,7 +216,7 @@ button {
     gap: 24px;
     padding-right: 156px;
     padding-left: 0;
-        margin: 0;
+    margin: 0;
 }
 
 .adventures-subtitle {

@@ -12,6 +12,7 @@ a {
     text-decoration: none;
 }
 
+
 address {
     font-style: normal;
 }
@@ -208,6 +209,8 @@ button {
 
 .adventures-list-item {
     width: calc((100% - 72px) /4);
+    padding-left: 0;
+        margin: 0;
 }
 
 .adventures-list {
@@ -262,16 +265,15 @@ button {
     display: flex;
         gap: 24px;
         justify-content: center;
-
 }
 
 .team-list-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+       padding-left: 0;
+       margin: 0;
         width: calc((100% - 3 * 24px) / 4);
-        padding-left: 0;
-            margin: 0;
     }
 
 .team-members {
@@ -281,6 +283,7 @@ button {
 .team-photos {
     margin: 0 auto;
     display: block;
+    max-width: 100%, 
 }
 
 .team-subtitle {

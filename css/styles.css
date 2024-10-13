@@ -31,14 +31,15 @@ button {
     border-bottom: 1px solid #e7e9fc
 }
 
-
 .header-container {
    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    display: flex;
     margin: 0 auto;
+    align-items: center;
+    display: flex; 
 }
+
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -133,14 +134,6 @@ button {
     color: #404bbf;
 }
 
-.header-container {
-    display: flex;
-    align-items: center;
-    margin-left: 156px;
-    margin-right: 156px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
 
 .solutions {
     background-color:#2e2f42;

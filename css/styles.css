@@ -208,13 +208,12 @@ button {
 }
 
 .adventures-list-item {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .adventures-list {
     display: flex;
     gap: 24px;
-    padding-right: 156px;
     padding-left: 0;
     margin: 0;
 }
